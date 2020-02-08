@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Rest Assure Automation configuration">
+    <listeners>
+        <listener class-name="com.automation.api.listeners.ExtentReporterNG"></listener>
+    </listeners>
+    <test name="Speaker API Tests">
+        <classes>
+            <class name="com.automation.api.Tests.SpeakerAPI"></class>
+        </classes>
+    </test>
+    <test name="CopyRight API Tests">
+        <classes>
+            <class name="com.automation.api.Tests.CopyRightAPI"></class>
+        </classes>
+    </test>
+
+    <test name="EventExport API Tests">
+        <classes>
+            <class name="com.automation.api.Tests.EventExportAPI"></class>
+        </classes>
+    </test>
+
+    <test name="EventSchedule API Tests">
+        <classes>
+            <class name="com.automation.api.Tests.EventScheduleAPIs"></class>
+        </classes>
+    </test>
+
+    <test name="MicroLocations API Tests">
+        <classes>
+            <class name="com.automation.api.Tests.MicroLocations"></class>
+        </classes>
+    </test>
+    
+    <test name="Attendee API Test">
+        <classes>
+            <class name="com.automation.api.Tests.AttendeeAPI"></class>
+        </classes>
+    </test>
+</suite>
